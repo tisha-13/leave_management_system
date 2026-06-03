@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <h1>Admin Dashboard</h1>
+
+    <div class="stats">
+
+        <div class="stat-card">
+            <h2 id="totalRequests">0</h2>
+            <p>Total Requests</p>
+        </div>
+
+        <div class="stat-card">
+            <h2 id="pendingRequests">0</h2>
+            <p>Pending Requests</p>
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h3>Leave Requests</h3>
+
+        <table id="requestTable">
+
+            <tr>
+                <th>ID</th>
+                <th>Employee</th>
+                <th>Leave Type</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
